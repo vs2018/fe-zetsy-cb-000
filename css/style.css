@@ -15,6 +15,109 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+
 }
 
 /* Write all remaining styles here */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: absolute
+  top: 0;
+  
+}
+
+.wrapper {
+  position: relative;
+}
+
+#title {
+  border-bottom: solid;
+  margin: 0 0 5px;
+  font-family: 'Baskerville', serif;
+  border-color: rgb(197,197,197);
+  border-width: thin;
+  padding-bottom: 10px;
+  
+
+}
+
+h1 a{
+  margin: 0 0 5px;
+  color: rgb(152,173,166);
+  font-size:3em;
+  text-decoration: none;
+
+}
+
+
+h1:hover a {
+  color: rgb(100,116,111);
+  cursor: pointer;
+}
+
+h2 {
+  font-size:2em;
+  color: rgb(100,116,111);
+}
+
+
+.col-1 {
+  float: left;
+  width: 24%;
+}
+
+[class*="col-"] {
+  margin-left: 0.25%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+p {
+  color: rgb(75,75,75);
+}
+
+
+
+.clearfix:after {
+  content: ".";
+  display:block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+img {
+  max-width: 100%;
+  border: solid;
+  border-color: rgb(157,157,157);
+  padding: 2px;
+}
+
+img:hover {
+  max-width: 100%;
+  border: solid;
+  border-color: rgb(100,116,111);
+  padding: 2px;
+  cursor: pointer;
+}
+
+#main-image img {
+  max-width: 100%;
+  border: solid;
+  padding: 0;
+  border-color: rgb(152,173,166);
+  border-width: thick;
+}
+
+#footer {
+  font-size:0.75em;
+  text-align: right;
+}
